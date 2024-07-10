@@ -54,10 +54,46 @@ python test_loan_prediction.py
 **to see all charts and graps**
 download and save the  **.ipynb** file and run it on visual code studio .
 
-# for application view
+# for application view in flet app
 
-As application is under development when it completes i I'll update here.
+This is a Flet-based web application for predicting loan approval status using machine learning models.
 
-** for using this app go to app file run app.py in env. having flet lib.. **
+inside the app folder.
 
-thanks for reading.
+### Features
+- Upload and preprocess dataset
+- Select and train models (Random Forest, Decision Tree, Gradient Boosting)
+- Classify and display prediction results
+
+### Requirements
+- Python 3.7+
+- Required Python packages: `flet`, `pandas`, `scikit-learn`
+
+### Installation
+1. Clone the repository:
+2. 
+   ```
+   git clone https://github.com/yourusername/loan-prediction-app.git
+   cd loan-prediction-app
+   ```
+
+3. Install the dependencies:
+4. 
+   ```
+   pip install -r requirements.txt
+   ```
+
+### Running the App
+Run the application using the following command:
+
+```
+python app.py
+```
+
+### Usage
+1. **Upload Tab**: Upload give loan_dataset (CSV file).
+2. **Select Model Tab**: Choose a machine learning model at a time anyone (Random Forest, Decision Tree, Gradient Boosting) then go to classification tab.
+3. **Classification Tab**: Click "Classify" to display accuracy and prediction results.
+
+---
+thankyou for reading.
